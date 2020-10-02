@@ -12,8 +12,12 @@ int main()
     cout << "A * B = " << a * b << '\n';
     cout << "A / B = " << a / b << '\n';
     if (a<b)
-        cout << "Minimum "<< a;
+        cout << "Minimum "<< a << '\n';
     if (b<a)
-        cout << "Minimum "<< b;
+        cout << "Minimum "<< b << '\n';
+    if (a>b)
+        cout << "Maximum "<< a;
+    if (b>a)
+        cout << "Maximum "<< b;
     return 0;
 }
